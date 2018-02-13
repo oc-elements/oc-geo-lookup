@@ -1,9 +1,7 @@
 /// <reference path="../polymer/types/polymer-element.d.ts" />
 /// <reference path="../iron-ajax/iron-ajax.d.ts" />
 /// <reference path="../polymer-decorators/polymer-decorators.d.ts" />
-import customElement = Polymer.decorators.customElement;
-import property = Polymer.decorators.property;
-import query = Polymer.decorators.query;
+const {customElement, property, query} = Polymer.decorators;
 
 @customElement('oc-geo-lookup')
 class OcGeoLookup extends Polymer.Element {
