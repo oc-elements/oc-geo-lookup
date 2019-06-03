@@ -13,8 +13,8 @@ class OcGeoLookup extends Polymer.Element {
 	ironAjax: IronAjaxElement;
 
 	private readonly geoLookupApi = "https://geocoder.cit.api.here.com/6.2/geocode.json";
-	private readonly geoLookupApiId = "?app_id=dA8G8BhM7Sk4otemmBo2";
-	private readonly geoLookupApiCode = "&app_code=cfuOXw7_G9d13rGYyv99iw";
+	private readonly geoLookupApiId = "?app_id=ZWgByqDcubLYxWKQhtJW";
+	private readonly geoLookupApiCode = "&app_code=CKWEv2eno8WA8bfYnqxGkw";
 	private readonly geoLookupApiSearch = "&searchtext=";
 	private readonly country = "South Africa";
 
