@@ -12,10 +12,10 @@ class OcGeoLookup extends Polymer.Element {
 	@query('#hereAjax')
 	ironAjax: IronAjaxElement;
 
-	private readonly geoLookupApi = "https://geocoder.cit.api.here.com/6.2/geocode.json";
-	private readonly geoLookupApiId = "?app_id=ZWgByqDcubLYxWKQhtJW";
-	private readonly geoLookupApiCode = "&app_code=CKWEv2eno8WA8bfYnqxGkw";
-	private readonly geoLookupApiSearch = "&searchtext=";
+	private readonly geoLookupApi = "https://geocode.search.hereapi.com/v1/geocode";
+	private readonly geoLookupApiId = "?apiKey=M3-FbEg4mCuiglJw5Cya82VCru9vHRL6j4UNZ-vA6lk";
+	private readonly geoLookupApiCode = "&in=countryCode:ZAF";
+	private readonly geoLookupApiSearch = "&q=";
 	private readonly country = "South Africa";
 
 	public getLocation(streetName: string, suburb: string, city: string): Promise<any> {
